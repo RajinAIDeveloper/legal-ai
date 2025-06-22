@@ -32,6 +32,166 @@ const CONTRACT_CATEGORIES = [
     popular: ['Articles of Inc.', 'Bylaws', 'Board Resolutions']
   },
   {
+    id: 'founding',
+    name: 'Founding & Startup',
+    icon: Zap,
+    color: 'bg-emerald-500',
+    count: 5,
+    popular: ['Pre-Inc Agreement', 'Founder Stock', 'EIN App']
+  },
+  {
+    id: 'finance',
+    name: 'Finance & Fundraising',
+    icon: TrendingUp,
+    color: 'bg-green-500',
+    count: 7,
+    popular: ['SAFE', 'Convertible Note', 'Promissory Note']
+  },
+  {
+    id: 'hr-employment',
+    name: 'HR & Employment',
+    icon: Users,
+    color: 'bg-blue-600',
+    count: 9,
+    popular: ['Severance', 'Non-Compete', 'Offer Letter']
+  },
+  {
+    id: 'operations',
+    name: 'Operations & Procurement',
+    icon: Database,
+    color: 'bg-cyan-500',
+    count: 7,
+    popular: ['Purchase Order', 'Supply Agreement', 'Equipment Lease']
+  },
+  {
+    id: 'real-estate',
+    name: 'Real Estate & Facilities',
+    icon: Home,
+    color: 'bg-orange-500',
+    count: 5,
+    popular: ['Property Purchase', 'Construction', 'Sublease']
+  },
+  {
+    id: 'ip-media',
+    name: 'IP & Media',
+    icon: Shield,
+    color: 'bg-purple-600',
+    count: 6,
+    popular: ['Work for Hire', 'Media Release', 'Trademark']
+  },
+  {
+    id: 'international-trade',
+    name: 'International Trade',
+    icon: Globe,
+    color: 'bg-indigo-500',
+    count: 6,
+    popular: ['Foreign Entity', 'Cross-border Tax', 'Int\'l Agency']
+  },
+  {
+    id: 'government',
+    name: 'Government & Compliance',
+    icon: Gavel,
+    color: 'bg-red-500',
+    count: 7,
+    popular: ['SEC Filings', 'Annual Return', 'GDPR Consent']
+  },
+  {
+    id: 'dispute',
+    name: 'Dispute & Litigation',
+    icon: Scale,
+    color: 'bg-yellow-600',
+    count: 6,
+    popular: ['Cease & Desist', 'Settlement', 'Demand Letter']
+  },
+  {
+    id: 'corp-strategy',
+    name: 'Corporate Strategy',
+    icon: TrendingUp,
+    color: 'bg-violet-500',
+    count: 9,
+    popular: ['Holding Company', 'Share Buyback', 'Succession Plan']
+  },
+  {
+    id: 'banking',
+    name: 'Banking & Securities',
+    icon: Building,
+    color: 'bg-emerald-600',
+    count: 10,
+    popular: ['Bank Loan', 'Credit Facility', 'PPM']
+  },
+  {
+    id: 'board-exec',
+    name: 'Board & Executive',
+    icon: Users,
+    color: 'bg-slate-600',
+    count: 8,
+    popular: ['Board Consent', 'Exec Compensation', 'D&O']
+  },
+  {
+    id: 'risk-insurance',
+    name: 'Risk & Insurance',
+    icon: Shield,
+    color: 'bg-amber-600',
+    count: 8,
+    popular: ['Risk Assessment', 'Cyber Policy', 'Disaster Recovery']
+  },
+  {
+    id: 'industry-specific',
+    name: 'Industry Specific',
+    icon: Gavel,
+    color: 'bg-rose-500',
+    count: 10,
+    popular: ['HIPAA', 'Fintech', 'FDA Filing']
+  },
+  {
+    id: 'client-facing',
+    name: 'Client & Customer',
+    icon: MessageSquare,
+    color: 'bg-teal-500',
+    count: 8,
+    popular: ['Client Engagement', 'SLA', 'Retainer']
+  },
+  {
+    id: 'tech-saas',
+    name: 'Technology & SaaS',
+    icon: Database,
+    color: 'bg-blue-700',
+    count: 10,
+    popular: ['SaaS Agreement', 'API License', 'AI Model Use']
+  },
+  {
+    id: 'sustainability',
+    name: 'Sustainability & ESG',
+    icon: Globe,
+    color: 'bg-green-700',
+    count: 5,
+    popular: ['ESG Policy', 'Carbon Offset', 'Green Lease']
+  },
+  {
+    id: 'construction',
+    name: 'Construction',
+    icon: Home,
+    color: 'bg-orange-700',
+    count: 7,
+    popular: ['EPC Agreement', 'Design-Build', 'Performance Bond']
+  },
+  {
+    id: 'education-nonprofit',
+    name: 'Education & Nonprofit',
+    icon: FileText,
+    color: 'bg-purple-700',
+    count: 6,
+    popular: ['MOU', 'Grant Agreement', 'PPP Contract']
+  },
+  {
+    id: 'corp-structure',
+    name: 'Corporate Restructuring',
+    icon: Building,
+    color: 'bg-gray-600',
+    count: 6,
+    popular: ['Spin-Off', 'Asset Transfer', 'Dissolution']
+  },
+  {
     id: 'ip-tech',
     name: 'IP & Technology',
     icon: Database,
@@ -74,7 +234,7 @@ export default function DashboardPage() {
     >
       <div className="mb-6 sm:mb-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Dashboard</h1>
-        <p className="text-gray-600 text-sm sm:text-base">Welcome back! Here's your legal workspace overview.</p>
+        <p className="text-gray-600 text-sm sm:text-base">Welcome back! Here&apos;s your legal workspace overview.</p>
       </div>
 
       {/* Stats Cards */}
